@@ -1,5 +1,5 @@
-resource "azurerm_linux_virtual_machine" "example" {
-    name                = var.virtualMachine
+resource "azurerm_linux_virtual_machine" "myTerraformVm" {
+    name                = var.virtualMachineName
     resource_group_name = azurerm_resource_group.myTerraformGroup.name
     location            = var.location
     size                = "Standard_F2"
