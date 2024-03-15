@@ -21,7 +21,7 @@ resource "azurerm_linux_virtual_machine" "myTerraformVm" {
   source_image_reference {
     publisher = "Canonical"
     offer     = "UbuntuServer"
-    sku       = "18_04-LTS"
+    sku       = "18.04-LTS"
     version   = "latest"
   }
 
