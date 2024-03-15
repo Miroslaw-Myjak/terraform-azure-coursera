@@ -25,6 +25,6 @@ resource "azurerm_linux_virtual_machine" "myTerraformVm" {
     version   = "latest"
   }
 
-  computer_name = var.virtualMachine
+  computer_name = var.virtualMachineName
   disable_password_authentication = true
 }
