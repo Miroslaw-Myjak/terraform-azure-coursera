@@ -23,5 +23,5 @@ variable "ipaddressname" {
 }
 
 variable "nsgname" {
-    type = "string"
+    type = string
 }
